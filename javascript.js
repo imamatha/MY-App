@@ -17,6 +17,7 @@ function getProfile()
 	$.each(response, function(index, row) {
 	if(row.email)
 	{
+	var Email=response.emails.value;
 	console.log("User Email is"+Email);
 	}
 	});
