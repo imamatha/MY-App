@@ -14,18 +14,18 @@ function getProfile()
     var Status=response.status;
     var Email=[ ];
 	var type=response.emails.type;
-	
-	$.each(response, function(index, row) {
-	Email=row.emails;	
-	//console.log(row.emails.value);
+	Email=response.emails;
+	var emailId=Email[2];
+	/*$.each(Email, function(index, row) {
+	console.log(row.emails.value);
   
 	
-	});
+	});*/
 
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
-	console.log("User Email is"+Email[2]);
+	console.log("User Email is"+emailId);
 	console.log("User type is"+type);
 
 });
