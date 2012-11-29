@@ -13,6 +13,7 @@ function getProfile()
 	var Level=response.jive.level.name;
     var Status=response.status;
     var Email=response.emails.value;
+	  var type=response.emails.type;
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
