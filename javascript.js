@@ -14,7 +14,6 @@ function getProfile()
     var Status=response.status;
     //var Email=response.emails.value;
 	var type=response.emails.type;
-	var Created:response.updated;
 	$.each(response, function(index, row) {
 	if(row.email)
 	{
