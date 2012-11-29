@@ -16,7 +16,7 @@ function getProfile()
 	var type=response.emails.type;
 	Email=response.emails;
 	$.each(Email, function(index, row) {
-	console.log(row.value);
+	console.log("Emails row:: "+row.value);
   
 	
 	});
@@ -24,7 +24,7 @@ function getProfile()
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
-	console.log("User Email is"+emailId);
+	
 	console.log("User type is"+type);
 
 });
