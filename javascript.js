@@ -15,7 +15,6 @@ function getProfile()
     var Email=[ ];
 	var emailId="";
 	var emailType="";
-	var type=response.emails.type;
 	Email=response.emails;
 	$.each(Email, function(index, row) {
 		emailId=row.value;
