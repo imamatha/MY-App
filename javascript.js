@@ -15,12 +15,11 @@ function getProfile()
     var Email=[ ];
 	var type=response.emails.type;
 	Email=response.emails;
-	var emailId=Email[2];
-	/*$.each(Email, function(index, row) {
-	console.log(row.emails.value);
+	$.each(Email, function(index, row) {
+	console.log(row.value);
   
 	
-	});*/
+	});
 
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
