@@ -25,15 +25,5 @@
         <Require feature="osapi"/>
         <Require feature="views"/>
     </ModulePrefs>
-	<UserPref name="work_location" display_name="Where do you work" datatype="string" default_value="" required="false" />
-    <UserPref name="participant" display_name="Participating in challenge" datatype="bool" default_value="" required="false" />
-    <UserPref name="defaultModeOfTransportation" display_name="How do you get to work?" datatype="enum" default_value="" required="false">
-      <EnumValue value="bicycle" display_value="Bicycle (15 points)" />
-      <EnumValue value="bus" display_value="Bus (10 points)" />
-      <EnumValue value="car" display_value="Car (1 points)" />
-      <EnumValue value="carpool" display_value="Carpool (5 points)" />
-      <EnumValue value="walk" display_value="Walk (20 points)" />
-      <EnumValue value="train" display_value="Train (10 points)" />
-</UserPref>
     <Content view="home, canvas" type="html" href="home.html"/>
 </Module>
