@@ -19,7 +19,7 @@ function getProfile()
 	{
 	console.log("User Email is"+Email);
 	}
-	}
+	});
 
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
