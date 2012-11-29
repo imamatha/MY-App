@@ -13,19 +13,20 @@ function getProfile()
 	var Level=response.jive.level.name;
     var Status=response.status;
     var Email=[ ];
+	var emailId="";
+	var emailType="";
 	var type=response.emails.type;
 	Email=response.emails;
 	$.each(Email, function(index, row) {
-	console.log("Emails row:: "+row.type);
-  
-	
+		emailId=row.value;
+		emailType=row.type;
 	});
 
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
-	
-	console.log("User type is"+type);
+	console.log("User email is"+emailId);
+	console.log("User type is"+emailType);
 
 });
 		 gadgets.window.adjustHeight();
