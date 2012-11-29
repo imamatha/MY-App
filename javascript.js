@@ -18,6 +18,7 @@ function getProfile()
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
 		console.log("User Email is"+Email);
+		console.log("User Email is"+type);
 
 		});
 		 gadgets.window.adjustHeight();
