@@ -10,4 +10,6 @@ function GetProfile()
         console.log("The User is " + JSON.stringify(response.data));
 		});
 		 gadgets.window.adjustHeight();
-}	  
+}	
+
+gadgets.util.registerOnLoadHandler(init);
