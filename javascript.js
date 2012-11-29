@@ -12,13 +12,21 @@ function getProfile()
 	var Name=response.jive.username;
 	var Level=response.jive.level.name;
     var Status=response.status;
-    var Email=response.emails.value;
-	  var type=response.emails.type;
+    //var Email=response.emails.value;
+	var type=response.emails.type;
+	var Created:response.updated;
+	$.each(response, function(index, row) {
+	if(row.email)
+	{
+	console.log("User Email is"+Email);
+	}
+	}
+
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
-		console.log("User Email is"+Email);
-		console.log("User Email is"+type);
+	//console.log("User Email is"+Email);
+	console.log("User type is"+type);
 
 		});
 		 gadgets.window.adjustHeight();
