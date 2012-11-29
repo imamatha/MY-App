@@ -1,5 +1,5 @@
 function init() {
-      $("#Press").click(GetProfile);
+      GetProfile();
       gadgets.window.adjustHeight();
 
 }
