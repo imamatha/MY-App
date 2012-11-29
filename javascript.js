@@ -12,12 +12,12 @@ function getProfile()
 	var Name=response.jive.username;
 	var Level=response.jive.level.name;
     var Status=response.status;
-    var Email="";
+    var Email=[ ];
 	var type=response.emails.type;
 	
 	$.each(response, function(index, row) {
-	Email=row.emails.value;	
-	console.log(row.emails.value);
+	Email=row.emails;	
+	//console.log(row.emails.value);
   
 	
 	});
@@ -25,7 +25,7 @@ function getProfile()
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
-	console.log("User Email is"+Email);
+	console.log("User Email is"+Email[2]);
 	console.log("User type is"+type);
 
 });
