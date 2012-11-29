@@ -9,10 +9,10 @@ function getProfile()
   osapi.jive.corev3.people.get({id : '@me'}).execute(function(response) {
         console.log("The User is " + JSON.stringify(response));
 		
-	var Name=response.resources.html.ref;
+	var Name=response.jive.username;
 	var Level=response.jive.level.name;
     var Status=response.status;
-    var Email=response.emails;
+    var Email=response.emails.value;
 	console.log("User Name is"+Name);
 	console.log("User Level is"+Level);
 	console.log("User Status is"+Status);
