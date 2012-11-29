@@ -16,8 +16,9 @@ function getProfile()
 	var type=response.emails.type;
 	
 	$.each(response, function(index, row) {
+	Email=row.emails.value;	
 	console.log(row.emails.value);
-    Email=row.emails.value;	
+  
 	
 	});
 
