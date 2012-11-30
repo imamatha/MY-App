@@ -17,7 +17,7 @@ function getProfile()
 	var emailId="";
 	var emailType="";
 	var html="";
-	var profile="";
+	var info="";
 	Email=response.emails;
 	$.each(Email, function(index, row) {
 		emailId=row.value;
@@ -31,11 +31,11 @@ function getProfile()
 	console.log("User email is" +emailId);
 	console.log("User type is" +emailType);
 	
-	profile +='<div>';
-	profile +='<li>Name:'+name+'</li>';
-	profile +='<li>Level:'+level+'</li>';
-	profile +='</div>';
-	$("#profile").html(profile);
+	info +='<div>';
+	info +='<li>Name:'+name+'</li>';
+	info +='<li>Level:'+level+'</li>';
+	info +='</div>';
+	$("#profile").html(info);
 	
     
 });
