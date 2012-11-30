@@ -31,10 +31,10 @@ function getProfile()
 	console.log("User email is" +emailId);
 	console.log("User type is" +emailType);
 	
-	info +='<div>';
-	info +='<li>Name:'+name+'</li>';
-	info +='<li>Level:'+level+'</li>';
-	info +='</div>';
+	info +='<table>';
+	info +='<tr><td>Name:</td><td>'+name+'</td></tr>';
+	info +='<tr><td>Level:</td><td>'+level+'</td></tr>';
+	info +='</table>';
 	console.log("info is" +info);
 	$("#profile").html(info);
 	
