@@ -30,10 +30,12 @@ function getProfile()
 	console.log("User displayName is" +dname);
 	console.log("User email is" +emailId);
 	console.log("User type is" +emailType);
+	
 	profile +='<div>';
 	profile +='<li>Name:'+name+'</li>';
 	profile +='<li>Level:'+level+'</li>';
 	profile +='</div>';
+	$("#profile").html(profile);
 	
     
 });
