@@ -9,9 +9,10 @@ function getProfile()
   osapi.jive.corev3.people.get({id : '@me'}).execute(function(response) {
         console.log("The User is " + JSON.stringify(response));
 		
-	var Name=response.jive.username;
-	var Level=response.jive.level.name;
-    var Status=response.status;
+	var name=response.jive.username;
+	var level=response.jive.level.name;
+    var status=response.status;
+	var dname=response.displayName;
     var Email=[ ];
 	var emailId="";
 	var emailType="";
@@ -21,11 +22,12 @@ function getProfile()
 		emailType=row.type;
 	});
 
-	console.log("User Name is"+Name);
-	console.log("User Level is"+Level);
-	console.log("User Status is"+Status);
-	console.log("User email is"+emailId);
-	console.log("User type is"+emailType);
+	console.log("User Name is" +name);
+	console.log("User Level is" +level);
+	console.log("User Status is" +status);
+	console.log("User dname is" +displayName);
+	console.log("User email is" +emailId);
+	console.log("User type is" +emailType);
 
 });
 		 gadgets.window.adjustHeight();
