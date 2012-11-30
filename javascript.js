@@ -30,8 +30,8 @@ function getProfile()
 	console.log("User email is" +emailId);
 	console.log("User type is" +emailType);
 	
-	html+=Name:'+name+'<br>;
-	html+=Level:'+level+'<br>;
+	html+='<li>Name:'+name+'</li><br>';
+	html+='<li>Level:'+level+'</li><br>';
     
 });
 		 gadgets.window.adjustHeight();
