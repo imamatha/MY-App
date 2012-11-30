@@ -6,7 +6,7 @@ function init() {
 	  
 function getProfile()
 {
-  osapi.jive.corev3.people.get({id : '@me'}).execute(function(response) {
+  osapi.jive.corev3.people.get({id : '@following'}).execute(function(response) {
         console.log("The User is " + JSON.stringify(response));
 		
 	var name=response.jive.username;
