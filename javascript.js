@@ -32,7 +32,7 @@ function getProfile()
 	console.log("User type is" +emailType);
 	
 	info += '<center>';
-	info += 'Name:'+name+'';
+	info += 'Name:'+name+'<br>';
 	info +='Level:'+level+'';
 	info += '</center>';
 	console.log("info is" +info);
