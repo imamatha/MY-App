@@ -32,7 +32,7 @@ function getProfile()
 	console.log("User type is" +emailType);
 	info += '<center>';
 	info += '<table border="1">';
-	info += '<tr><th>Name:</th><td>'+name+'</td></tr><br>';
+	info += '<tr>Name:<td>'+name+'</td></tr><br>';
 	info +='<tr><th>Level:</th><td>'+level+'</td></tr><br>';
 	info +='<tr><th>Status:</th><td>'+status+'</td></tr><br>';
 	info +='<tr><th>Display name:</th><td>'+dname+'</td></tr><br>';
