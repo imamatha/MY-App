@@ -32,11 +32,11 @@ function getProfile()
 	console.log("User type is" +emailType);
 	
 	info +='<div>';
-	info +='<li>Name:'+name+'</li>';
-	info +='<li>Level:'+level+'</li>';
+	info +='Name:'+name+'';
+	info +='Level:'+level+'';
 	info +='</div>';
 	console.log("info is" +info);
-	$("#profile").html(info);
+	//$("#profile").html(info);
 	
     
 });
