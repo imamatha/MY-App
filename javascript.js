@@ -33,7 +33,7 @@ function getProfile()
 	
 	info += '<table border="1">';
 	info += '<tr><th>Name:</th><td>'+name+'</td></tr><br>';
-	info +='<tr><th>Level:</th><td>'+level+'</td></tr><br>';';
+	info +='<tr><th>Level:</th><td>'+level+'</td></tr><br>';
 	info += '</center>';
 	console.log("info is" +info);
 	$("#profile").html(info);
