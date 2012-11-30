@@ -31,9 +31,9 @@ function getProfile()
 	console.log("User email is" +emailId);
 	console.log("User type is" +emailType);
 	
-	info += '<center>';
-	info += 'Name:'+name+'<br>';
-	info +='Level:'+level+'';
+	info += '<table border="1">';
+	info += '<tr><th>Name:</th><td>'+name+'</td></tr><br>';
+	info +='<tr><th>Level:</th><td>'+level+'</td></tr><br>';';
 	info += '</center>';
 	console.log("info is" +info);
 	$("#profile").html(info);
