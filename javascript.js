@@ -25,7 +25,7 @@ function getProfile()
 	console.log("User Name is" +name);
 	console.log("User Level is" +level);
 	console.log("User Status is" +status);
-	console.log("User dname is" +displayName);
+	console.log("User displayName is" +dname);
 	console.log("User email is" +emailId);
 	console.log("User type is" +emailType);
 
