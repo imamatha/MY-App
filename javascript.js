@@ -35,6 +35,7 @@ function getProfile()
 	info +='<li>Name:'+name+'</li>';
 	info +='<li>Level:'+level+'</li>';
 	info +='</div>';
+	console.log("info is" +info);
 	$("#profile").html(info);
 	
     
