@@ -34,12 +34,12 @@ function getProfile()
 	info += '<table border="1">';
 	info += '<thead>';
 	info += '<tr>';
-	info += '<th>Name:</th>';
-	info += '<th>Level:</th>';
-	info += '<th>Status:</th>';
-	info += '<th>Display name:</th>';
-	info += '<th>Email ID:</th>';
-	info += '<th>Email Type:</th>';
+	info += '<th>Name</th>';
+	info += '<th>Level</th>';
+	info += '<th>Status</th>';
+	info += '<th>Display name</th>';
+	info += '<th>Email ID</th>';
+	info += '<th>Email Type</th>';
 	info += '</tr>';
 	info += '</thead>';
 	
