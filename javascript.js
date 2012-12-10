@@ -9,7 +9,7 @@ function getProfile()
   osapi.jive.corev3.people.get({id : '@me'}).execute(function(response) {
         console.log("The User is " + JSON.stringify(response));
 
-	var name=response.jive.username;
+/*	var name=response.jive.username;
 	var level=response.jive.level.name;
     var status=response.status;
 	var dname=response.displayName;
@@ -58,7 +58,7 @@ function getProfile()
 	info += '</center>';
 	console.log("info is" +info);
 	$("#profile").html(info);
-	 gadgets.window.adjustHeight();
+	 gadgets.window.adjustHeight();*/
     
 });
 		
